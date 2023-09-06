@@ -1,0 +1,50 @@
+body {
+    background-image: url(images/3.jpg);
+}
+
+#test {
+    transform: scale(1.0);
+    transition: 1s all;
+    background-color: #DCDCDC;
+    color: #000000;
+    padding: 15px;
+    margin: 15;
+    border: 5px solid #6D3B3C;
+    border-radius: 10px;
+    opacity: 0.8;
+    box-shadow: 10px 10px 20px #000000;
+    margin: 10px;
+    width: 50%;
+    height: 10px;
+    display: block;
+    font-size: 16px
+
+}
+
+#test1 {
+    transform: scale(1.0);
+    transition: 1s all;
+    background-color: #DCDCDC;
+    color: #000000;
+    padding: 15px;
+    margin: 15;
+    border: 5px solid #6D3B3C;
+    border-radius: 10px;
+    opacity: 0.8;
+    margin: 10px;
+    width: 50%;
+    height: 10px;
+    font-size: 20px
+    text-align: center;
+    font-weight: 100px;
+}
+
+#test:hover {
+    transform: rotate(180px);
+    background-color: red;
+}
+
+#test1:hover {
+    transform: rotate(180px);
+    background-color: red;
+}

@@ -1,0 +1,59 @@
+a {
+ font-size: 30px;
+ margin-left: 50px;
+}
+
+.man {
+    color: green;
+    font-size: 50px;
+    border: 1px dashed #000000;
+    background: #C9F4E7
+}
+
+.animal {
+    color: red;
+    font-size: 60px;
+}
+
+.monkey {
+    color: #397AE1;
+    font-size: 70px;
+}
+
+.message {
+    transition: 0.1s all;
+    color: #747474;
+    font-size: 40px;
+    background-color: #D6ECF0;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    padding: 5px;
+}
+
+.failed {
+    color: #ffffff;
+    font-size: 40px;
+    background-color: #D65144;
+    border: 1px solid #000000;
+}
+
+.success {
+    background-color: #19a15F;
+    color: #ffffff;
+}
+
+.info {
+    background-color: #4B8BF5;
+    color: #ffffff;
+}
+
+.warning {
+    background-color: #FFCE43;
+    color: #000000;
+}
+
+.message:hover {
+    border: 5px solid #323232;
+}
